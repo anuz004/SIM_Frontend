@@ -81,7 +81,6 @@ const Navbar = ({ scrollToSection }) => {
             {[
               { name: "About", ref: scrollToSection.about },
               { name: "Services", ref: scrollToSection.services },
-              { name: "Team", ref: scrollToSection.team },
               { name: "Get in Touch", ref: scrollToSection.contact },
             ].map(({ name, ref }) => (
               <div
