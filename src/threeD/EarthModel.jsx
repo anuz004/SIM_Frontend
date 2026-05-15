@@ -69,4 +69,6 @@ function EarthModel() {
   );
 }
 
+useLoader.preload(TextureLoader, [Albedo, Bump, Clouds, NightLights, Ocean, Stars]);
+
 export default EarthModel;
